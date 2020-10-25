@@ -82,6 +82,7 @@ export default {
           to: '/table',
         },
       ],
+      miniVariant: false,
       title: 'Le Café',
     }
   },
