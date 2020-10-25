@@ -29,10 +29,12 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title v-text="title" />
       <v-spacer />
-      <v-btn icon>
-        <!-- ปุ่มออก -->
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
+      <!-- button logout -->
+      <nuxt-link to="/">
+        <v-btn icon>
+          <v-icon>mdi mdi-logout-variant</v-icon>
+        </v-btn></nuxt-link
+      >
     </v-app-bar>
     <v-main>
       <v-container>
