@@ -1,9 +1,19 @@
 <template>
-  <div>order</div>
+  <div>
+    order
+    <v-navigation-drawer :right="right" fixed app>
+      <v-list></v-list>
+    </v-navigation-drawer>
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      fixed: false,
+      right: true,
+    }
+  },
+}
 </script>
-
-<style></style>
