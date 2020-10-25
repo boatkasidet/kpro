@@ -54,12 +54,32 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
+          title: 'Menu',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Login',
+          to: '/login',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Home',
+          to: '/home',
         },
         {
           icon: 'mdi-chart-bubble',
           title: 'Order',
           to: '/order',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Table',
+          to: '/table',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Register',
+          to: '/register',
         },
       ],
       title: 'Le Café',
