@@ -63,6 +63,11 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
+          title: 'Register',
+          to: '/register',
+        },
+        {
+          icon: 'mdi-chart-bubble',
           title: 'Home',
           to: '/home',
         },
@@ -75,11 +80,6 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Table',
           to: '/table',
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Register',
-          to: '/register',
         },
       ],
       title: 'Le Café',
