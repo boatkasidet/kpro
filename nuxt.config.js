@@ -3,14 +3,19 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - pro',
-    title: 'pro',
+    title: 'Le Café',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image',
+        href: 'https://www.flaticon.com/svg/static/icons/svg/924/924463.svg',
+      },
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)

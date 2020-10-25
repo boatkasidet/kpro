@@ -62,7 +62,7 @@ export default {
           to: '/order',
         },
       ],
-      title: 'Vuetify.js',
+      title: 'Le Café',
     }
   },
 }
